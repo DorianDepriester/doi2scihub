@@ -4,6 +4,7 @@
 // @description Automatically turns each DOI link into a new link to the corresponding document on sci-hub.cc
 // @version     3
 // @grant       none
+// @match      *://*/*
 // ==/UserScript==
 window.addEventListener('load', function() {
     var els = document.getElementsByTagName("A");
