@@ -8,6 +8,12 @@
 // @version     5
 // @grant       none
 // @match       *://*/*
+// @exclude     http*://*.google.*
+// @exclude     http*://*.stackexchange.com/*
+// @exclude     http*://*.stackoverflow.com/*
+// @exclude     http*://*.superuser.com/*
+// @exclude     http*://*.askubuntu.com/*
+// @exclude     http*://*.reddit.com/*
 // @run-at      document-idle
 // ==/UserScript==
 window.addEventListener('load', function() {
