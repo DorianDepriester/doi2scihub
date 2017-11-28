@@ -20,6 +20,6 @@ window.addEventListener('load', function() {
    var els = document.getElementsByTagName("A");
    for(var i = 0, l = els.length; i < l; i++) {
       var el = els[i];
-      el.href = el.href.replace(/^((http(s|):\/\/|www\.)|)(dx.|)doi\.org\//gim, 'http://sci-hub.cc/');
+      el.href = el.href.replace(/^((http(s|):\/\/|www\.)|)(dx.|)doi\.org\//gim, 'http://sci-hub.bz/');
    }
 }, false);
