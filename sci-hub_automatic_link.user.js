@@ -5,7 +5,7 @@
 // @description Automatically turns each DOI link into a new link to the corresponding document on sci-hub.cc
 // @downloadURL https://github.com/DorianDepriester/doi2scihub/raw/master/sci-hub_automatic_link.user.js
 // @supportURL  https://github.com/DorianDepriester/doi2scihub/issues
-// @version     5
+// @version     5.1
 // @grant       none
 // @match       *://*/*
 // @exclude     http*://*.google.*
